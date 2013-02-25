@@ -1,7 +1,7 @@
 #!usr/bin/ python
 
-# Program for finding the best song based on
-# Zipf's Law
+# Program for finding the best song
+# based on Zipf's Law
 
 import sys
 from operator import itemgetter
