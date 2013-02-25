@@ -1,10 +1,10 @@
 #!usr/bin/ python
 
-import sys
-from operator import itemgetter
-
 # Program for finding the best song based on
 # Zipf's Law
+
+import sys
+from operator import itemgetter
 
 number_of_songs = None
 number_to_output = None
