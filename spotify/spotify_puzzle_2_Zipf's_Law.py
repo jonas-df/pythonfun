@@ -12,8 +12,7 @@ first_song_plays = None
 song_list = []
 data = []
 
-songs = sys.stdin.readlines()
-for song in songs:
+for song in sys.stdin:
 	if not number_of_songs:
 		conditions = song.split()
 		number_of_songs = conditions[0]
